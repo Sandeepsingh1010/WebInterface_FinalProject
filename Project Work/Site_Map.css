@@ -1,0 +1,99 @@
+﻿/*
+Author: Sandeep Singh
+StudentID: 301255774
+*/
+
+/* HEADER v5*/
+body {
+	font-family: Roboto;
+	background-color: #DBEDFF;
+	margin: 0px;
+}
+
+nav ul {
+ 	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-size:large;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #004A95;
+	align-items: center;
+	margin: 0px;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #FFFFFF;
+}
+/* Header Ends*/
+	
+nav li {	
+	display: inline;
+}
+
+/* FOOTER v3*/
+hr{
+	margin: 0px 50px;
+}
+
+footer{
+	margin: 0 auto;
+	color: #555;
+	text-align: center;
+}
+/* footer ends */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+	margin: 0 auto;
+}
+
+.column {
+	flex:1;
+    padding: 0px;
+    margin: 0 10px;
+}
+
+/* SITE MAP */
+.sitemap {
+  font-size:large;
+  padding:15px;
+}
+
+.sitemap ul {
+  list-style-type: none;
+}
+
+.sitemap ul li {
+  margin-bottom: 10px;
+
+}
+
+.sitemap ul li a {
+  text-decoration: none;
+  color: #333;
+
+}
+
+.sitemap ul li a:hover {
+  color: #666;
+  border-bottom: 1px solid Gray;
+}
+
+.sitemap ul ul {
+  margin-top: 5px;
+}
+
+.sitemap ul ul li {
+  margin-left: 20px;
+}
+

@@ -1,0 +1,59 @@
+﻿/*
+Author: Sandeep Singh
+StudentID: 301255774
+Date: 14-Mar-2024
+*/
+body {
+	border: thin solid #C0C0C0;
+	font-family: sans-serif;
+	background-color: #EAFFFF;
+	margin: 0 auto;
+	width: 980px;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+h2 {
+	color: #333;
+}
+
+h3 {
+	color: #333;
+	padding:10px;
+}
+
+
+
+p {
+	font-family: Verdana;
+	text-align: justify;
+}
+
+li{
+	margin-bottom:10px;
+}
+
+
+blockquote {
+	margin-left:0px;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: #333;
+	margin: 20px 100;
+}
+
+td {
+
+	vertical-align: middle;
+	padding: 10px;
+}
+
+tr {
+	
+}

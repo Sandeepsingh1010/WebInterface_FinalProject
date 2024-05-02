@@ -1,0 +1,94 @@
+﻿/*
+Author: Sandeep Singh
+StudentID: 301255774
+*/
+
+/* HEADER v5*/
+body {
+	font-family: Roboto;
+	background-color: #DBEDFF;
+	margin: 0px;
+}
+
+nav ul {
+ 	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	font-size:large;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	background: #004A95;
+	align-items: center;
+	margin: 0px;
+}
+nav a {
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #FFFFFF;
+}
+/* Header Ends*/
+	
+nav li {	
+	display: inline;
+}
+
+/* FOOTER v3*/
+hr{
+	margin: 0px 50px;
+}
+
+footer{
+	margin: 0 auto;
+	color: #555;
+	text-align: center;
+}
+/* footer ends */
+
+
+#NameSection {
+	background-image: url('Images/Toronto.webp');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.heading-text {
+    font-size: 60px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+	margin: 0 auto;
+}
+
+.column {
+    padding: 0px;
+    margin: 0 10px;
+}
+
+.fixed-width {
+	width: 500px;
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+}
+

@@ -1,0 +1,109 @@
+﻿<!--
+Author: Sandeep Singh
+StudentID: 301255774
+Project Work
+Date: 09-April-2024
+-->
+
+<html>
+
+<head>
+<title>Project Work</title>
+<link href="Contact.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="Images/Logo.png" type="image/png">
+</head>
+
+<body>
+
+<!-- Common Header -->
+<header>
+	<nav>
+		<ul>
+			<a href="ProjectHome.html">
+			<img alt="House_Icon" src="Images/House_icon.png" width="100px"> </a>
+			<li><a href="ProjectHome.html">Home</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="All_Properties.html">Top Listings</a></li>
+			<li><a href="Site_Map.html">Site Map</a></li>
+			<li><a href="Site_Map.html">Credits</a></li>
+			<li><a href="Site_Map.html">&#128241; +1 123 456 7890</a></li>
+			<a href="ProjectHome.html">
+			<img alt="House_Icon" src="Images/Social.png" width="100px"> </a>
+		</ul>
+	</nav>
+</header>
+
+<section id="NameSection">
+	<section class="container">
+		<div class="column" >
+			<img alt="40 Sentinel Rd" src="Images/Agent.webp" >
+		
+			<h2 class="Heading-text">Contact Vishal Khanna</h2>
+			<p class="Heading-text" style="font-size: 20px">Connect with our dedicated 
+			team of real estate experts. Whether you're buying, selling, or just 
+			seeking advice, we're here to guide you through every step of your property 
+			journey. Reach out today to start turning your real estate dreams into 
+			reality!</p>
+		</div>
+		<div class="column">
+			<form action="mailto:ssin1949@my.centennialcollege.ca" enctype="text/plain" method="post">
+				<label for="CliantName">Full Name:</label>
+				<input id="CliantName" name="CliantName" type="text">
+				
+				<br>
+				<label for="phone">Phone:</label>
+				<input id="phone" name="phone" required="" type="tel">
+				<br>
+				
+				<br>
+				<label for="email">Email:</label>
+				<input id="email" name="email" required="" type="email">
+				<br>
+				
+				<br>
+				<label for="propertyType">Type of Property:</label>
+				<select id="propertyType" name="propertyType" required="">
+				<option value="house">House</option>
+				<option value="condominium">Condominium</option>
+				<option value="condominium">Apartment</option>
+				<option value="condominium">Detached</option>
+				<option value="condominium">Semi-detached</option>
+
+				</select>
+				<br>
+				
+				<br>
+				<label for="bedrooms">Number of Bedrooms:</label>
+				<input id="bedrooms" min="1" name="bedrooms" required="" type="number">
+				<br>
+				
+				<br><label for="bathrooms">Number of Bathrooms:</label>
+				<input id="bathrooms" min="1" name="bathrooms" required="" type="number"><br>
+				
+				<br><label for="priceRangeMin">Price Min:</label>
+				<input id="priceRangeMin" name="priceRangeMin" required="" type="number"><br>
+				
+				<br><label for="priceRangeMax">Price Max:</label>
+				<input id="priceRangeMax" name="priceRangeMax" required="" type="number"><br>
+
+				<br><label for="comments">Additional Comments:</label><br>
+				
+				<textarea id="comments" cols="50" name="comments" rows="4"></textarea><br>
+				
+				<br>
+				<input type="submit" value="Submit" width="100%">
+			</form>
+		</div>
+	</section>
+</section>
+<br>
+<!-- Common Footer -->
+<hr>
+<footer>
+	<p style="font-family: Helvetica">&copy; Sandeep Singh, 301255774, COMP213, 
+	Winter 2024</p>
+</footer>
+
+</body>
+
+</html>
